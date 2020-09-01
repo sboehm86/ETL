@@ -18,14 +18,42 @@ To use the DB:
 
 # Narrative/Motivation
 
+Social media are very important in our society as users spend a lot of time
+online. They see social media as an important source of information about
+diverse topics. YouTube having an important role in the social media industry,
+it is a main virtual crossroad where people can share their view, opinion, life,
+etc.
 
+YouTube has became a strong platform to promote products or services of
+companies. The popularity of the videos determines their availability to the
+audience. For instance, the video with the most views becomes more popular and
+becomes mainstream.
+
+After cleaning, organizing, storing data under one dataset, companies could use
+the database to perform analysis on what category are more popular than others.
+They could also analyze the numbers of views vs. likes/dislikes.
 
 # Data Model
 
-
+We didn’t need a Data Model because the two data frames were identical before
+and after cleaning them.
 
 # Data Sources
 
-
+This dataset is obtained from Kaggle.com and is a record of trending YouTube
+videos for various countries. Data is available for USA, France, Japan among
+other regions.
+The US region has it csv file and the French region has a xlsx file. Each file
+includes various columns like video title, channel name, publish time, tags,
+views count, number of likes and dislikes, comment counts, etc.
 
 # Transformation
+A clean dataset was created containing data for two regions (US and France) by
+converting the xlsx file to csv and then combining both in MongoDBCompass
+
+Steps:
+Read each csv files to a pandas data frame
+Cleaned the data frames to include only relevant columns that could be useful
+for a data analysis.
+The data frames for the three regions were then combined into one single data
+frame containing 80k+ rows
