@@ -1,0 +1,31 @@
+# Quick Summary
+
+Our ETL project took data from two different countries and compiled it into one
+database for ease of access and analysis. The database has viral videos from You-
+Tube for the US and France for 2019 and encompasses each videos: likes, dislikes
+and views in addition to the metadata for each video. We provided our data as a
+CSV in the Mongo DB which allows for rapid sorting and comparison of the two
+datasets.
+
+To use the DB:
+1. Start MongoDBCompass
+2. Log In with your user info
+3. Click the plus button on the bottom left
+4. Specify both the DB and Collection names; click create
+5. Click the import button and navigate to us_fr_database
+6....
+7. Profit!
+
+# Narrative/Motivation
+
+
+
+# Data Model
+
+
+
+# Data Sources
+
+
+
+# Transformation
